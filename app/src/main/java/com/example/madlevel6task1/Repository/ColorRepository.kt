@@ -1,6 +1,5 @@
 package com.example.madlevel6task1.Repository
 
-
 import com.example.madlevel6task1.Model.ColorItem
 
 class ColorRepository {

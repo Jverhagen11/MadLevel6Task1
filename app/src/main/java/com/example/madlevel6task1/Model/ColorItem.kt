@@ -7,3 +7,5 @@ data class ColorItem (
     fun getImageUrl() = "http://singlecolorimage.com/get/$hex/1080x1080"
 }
 
+
+
