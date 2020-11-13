@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.madlevel6task1.Model.ColorItem
 import com.example.madlevel6task1.R
+import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.item_color.view.*
 
 
@@ -37,6 +38,7 @@ class ColorAdapter(private val colors: List<ColorItem>, private val onClick: (Co
             Glide.with(context).load(colorItem.getImageUrl()).into(itemView.ivColor)
         }
     }
+
 
 }
 
